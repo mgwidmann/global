@@ -9,7 +9,7 @@ defmodule Global.Mixfile do
      start_permanent: Mix.env == :prod,
      package: [licenses: ["Apache 2"],
         links: %{"GitHub" => "https://github.com/mgwidmann/global"},
-        contributors: ["Matt Widmann"]]
+        contributors: ["Matt Widmann"]],
      description: "A wrapper for Erlang's :global module with documentation.",
      deps: deps]
   end
