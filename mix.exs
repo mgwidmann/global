@@ -7,6 +7,10 @@ defmodule Global.Mixfile do
      elixir: "~> 1.0",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     package: [licenses: ["Apache 2"],
+        links: %{"GitHub" => "https://github.com/mgwidmann/global"},
+        contributors: ["Matt Widmann"]]
+     description: "A wrapper for Erlang's :global module with documentation.",
      deps: deps]
   end
 
